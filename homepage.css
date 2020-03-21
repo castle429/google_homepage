@@ -1,0 +1,153 @@
+body {
+    overflow:hidden;
+}
+
+#center {
+    text-align:center;
+    position: relative;
+    display: block;
+    bottom: 15px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#logo {
+    padding-top: 190px;
+    padding-left: 250px;
+    size: 200px;
+}
+
+p {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+}
+
+
+p:hover {
+    text-decoration: underline;
+}
+
+
+
+.tllist {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    position: absolute;
+}
+
+.trlist {
+    float: right;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+#tlelem {
+    float: left;
+    margin: 2px 5px 0px 16px;
+    size:1px;
+
+}
+
+#trelem {
+    float: left;
+    margin: 2px 5px 0px 16px;
+}
+
+#options {
+    padding-top: 12px;
+}
+
+#sign-in {
+    color: white;
+    font-weight: 700;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    background-color: #4285f4;
+    padding: 7px 13px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 4px;
+}
+
+#searchbar {
+    width: 435px;
+    height: 43px;
+    
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;;
+    margin: 20px auto;
+}
+
+#search {
+    float:left;
+    padding: 13px;
+}
+
+#microphone {
+    float: right;
+    padding: 11px;
+}
+
+#buttons {
+    position: relative;
+    display:inline-flex;
+    font-family: arial, sans-serif;
+    padding-top: 10px;
+    
+}
+
+#button {
+    margin: 0 10px;
+    padding: 10px 14px;
+    font-size:14px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+}
+
+#bottombar {
+    position: absolute;
+    width: 101%;
+    bottom: 0;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    size: 20px;
+    color: #5F6368;
+    margin: 0;
+    margin-left: -10px;
+    
+}
+
+.bllist {
+    position: relative;
+    float:left;
+    bottom: 19px;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.brlist {
+    position: relative;
+    float:right;
+    bottom: 19px;
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+#blelem {
+    float:left;
+    margin: 2px 5px 0px 16px;
+}
+
+#brelem {
+    float:left;
+    margin: 2px 0px 0px 16px;
+    
+
+}
